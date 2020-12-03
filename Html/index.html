@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="/images/perfil.ico">
+    <link rel="stylesheet" href="/CSS/indexStyle.css">
+    <script src="https://kit.fontawesome.com/b93a2e8e2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-mountain"></i></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="perfilpage.html">Contact</a></li>
+            <li><a href="searchpage.html">Search</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+    <div class="content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur vel facere dolore ducimus minus voluptatum hic dignissimos. Harum consectetur, ipsum repellat suscipit numquam totam a, eligendi amet doloremque quos ullam!
+    </div>
+</body>
+</html>
